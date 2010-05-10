@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "exetel.gemspec",
      "lib/exetel.rb",
      "lib/exetel/api.rb",
      "lib/exetel/api/command.rb",

@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "exetel"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Ruby API wrapper for the Exetel SMS Service"
+    gem.description = "This gem wraps the SMS service provided by Exetel. You are required to have an Exetel account to use this service - http://www.exetel.com.au"
     gem.email = "jkongie@gmail.com"
     gem.homepage = "http://github.com/jkongie/exetel"
-    gem.authors = ["jkongie"]
+    gem.authors = ["James Kong"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
